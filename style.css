@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+#center{
+    top: 50%;    
+    left: 25%;
+    transform: translate(0,-50%);
+    position: absolute;
+    height: 85%;
+    width: 55%;
+    /* background-color: blue; */
+
+}
+.imagecontainer{
+    height: 100%;
+    width:0%;
+    /* background-color: yellow; */
+    position: absolute;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    overflow: hidden;
+    top: 70%;
+    left: -15%;
+    position: absolute;
+    /* background-color: red; */
+    z-index: 11;
+    height: 11vh;
+    width: 18vw;
+    font-size: 2vw;
+}
+.text h1{
+    position: absolute;
+    top: 100%;
+
+}
